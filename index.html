@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <section class="portfolio">
+        <div class="contenedor portfolio-inner">
+            <span class="portfolio-label">OUR WORKS</span>
+            <h2 class="portfolio-title">Latest Projects</h2>
+
+            <!-- TABS -->
+            <ul class="tabs">
+                <li class="active"><a href="#tab-all">All items</a></li>
+                <li><a href="#tab-mobile">Mobile App</a></li>
+                <li><a href="#tab-web">Web App</a></li>
+                <li><a href="#tab-custom">Custom Soft</a></li>
+                <li><a href="#tab-uiux">UI/UX</a></li>
+            </ul>
+
+            <div class="tab-container">
+
+                <!-- TAB 1: ALL ITEMS -->
+                <div id="tab-all" class="tab-content">
+                    <div class="projects-grid grid-all">
+                        <article class="project-card"><img src="imagenes/port7.jpg" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port2.png" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port7.jpg" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port6.jpg" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port3.jpg" alt=""></article>
+                    </div>
+                </div>
+
+                <!-- TAB 2: MOBILE APP -->
+                <div id="tab-mobile" class="tab-content">
+                    <div class="projects-grid">
+                        <article class="project-card"><img src="imagenes/port7.jpg" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port6.jpg" alt=""></article>
+                    </div>
+                </div>
+
+                <!-- TAB 3: WEB APP -->
+                <div id="tab-web" class="tab-content">
+                    <div class="projects-grid grid-web">
+                        <article class="project-card"><img src="imagenes/port2.png" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port3.jpg" alt=""></article>
+                    </div>
+                </div>
+
+                <!-- TAB 4: CUSTOM SOFT -->
+                <div id="tab-custom" class="tab-content">
+                    <div class="projects-grid">
+                        <article class="project-card"><img src="imagenes/port6.jpg" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port7.jpg" alt=""></article>
+                    </div>
+                </div>
+
+                <!-- TAB 5: UI/UX -->
+                <div id="tab-uiux" class="tab-content">
+                    <div class="projects-grid">
+                        <article class="project-card"><img src="imagenes/port7.jpg" alt=""></article>
+                        <article class="project-card"><img src="imagenes/port2.png" alt=""></article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-footer center-btn">
+                <a href="#" class="btn-more">View all softwere</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- jQuery + script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
